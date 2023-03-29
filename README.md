@@ -2,8 +2,18 @@
 This is base simulation for autonomus car projects using Yolov5 and OpenCV. This package tested in ROS2 Galactic.
 Package contains basic lane_tracking and yolov5 based scripts. Our team still devoloping the code i cant post
 the last version because we are getting ready for a COMPETATION makse sure to fallow us.
-https://www.instagram.com/mekatronom/
-https://www.linkedin.com/company/kou-mekatronom/
+
+<div align="center">
+  <a href="https://github.com/neraiv" style="text-decoration:none;">
+    <img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="2%" alt="" /></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="" />
+  <a href="https://www.linkedin.com/company/kou-mekatronom/" style="text-decoration:none;">
+    <img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png" width="2%" alt="" /></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="" />
+  <a href="https://www.instagram.com/mekatronom/" style="text-decoration:none;">
+    <img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png" width="2%" alt="" /></a>
+</div>
+
 
 # Install ROS2
 This package tested in ROS2 Galactic but u can use it with other ROS2 distros after making minimal changes.
