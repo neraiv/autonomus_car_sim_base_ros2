@@ -1,7 +1,7 @@
 # autonomus_car_sim_base_ros2
 This is base simulation for autonomus car projects using Yolov5 and OpenCV. This package tested in ROS2 Galactic.
 Package contains basic lane_tracking and yolov5 based scripts. Our team still devoloping the code i cant post
-the last version because we are getting ready for a COMPETATION makse sure fallow to fallow us.
+the last version because we are getting ready for a COMPETATION makse sure to fallow us.
 https://www.instagram.com/mekatronom/
 https://www.linkedin.com/company/kou-mekatronom/
 
