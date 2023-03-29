@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='mandotary_right'>
+    <model name='signs'>
+      <static>1</static>
+      <pose>-5e-06 -0 0 0 -0 0</pose>
+      <link name='zorunlu_yon_sag'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='sign'>
+          <geometry>
+            <mesh>
+              <scale>0.25 0.25 0.25</scale>
+              <uri>model://zorunlu_yon_sag/meshes/zorunlu_yon_sag.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.25 0.25 0.25</scale>
+              <uri>model://zorunlu_yon_sag/meshes/zorunlu_yon_sag.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

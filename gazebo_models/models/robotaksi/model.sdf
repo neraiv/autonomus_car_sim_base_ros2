@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='robotaksi'>
+    <model name='robotaksi2'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://robotaksi2/meshes/robotaksi2.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose>3e-06 5e-06 0 0 -0 0</pose>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

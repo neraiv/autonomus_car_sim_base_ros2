@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='stop'>
+    <model name='sign'>
+      <static>1</static>
+      <pose>0 -2e-06 0 0 -0 0</pose>
+      <link name='stop_sign'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='sign'>
+          <geometry>
+            <mesh>
+              <scale>0.25 0.25 0.25</scale>
+              <uri>model://dur/meshes/dur.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.25 0.25 0.25</scale>
+              <uri>model://dur/meshes/dur.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
