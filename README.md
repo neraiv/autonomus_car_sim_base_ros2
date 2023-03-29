@@ -1,5 +1,6 @@
 # autonomus_car_sim_base_ros2
-This is base simulation for autonomus car projects using Yolov5 and OpenCV. This package tested in ROS2 Galactic
+This is base simulation for autonomus car projects using Yolov5 and OpenCV. This package tested in ROS2 Galactic.
+Package contains basic lane_tracking and yolov5 based scripts.
 
 # Install ROS2
 This package tested in ROS2 Galactic but u can use it with other ROS2 distros after making minimal changes.
