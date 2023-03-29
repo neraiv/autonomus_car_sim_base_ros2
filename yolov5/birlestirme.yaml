@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 12
+names: ['park', 'park_edilmez','sola_don','saga_don','sola_donulmez','saga_donulmez','kavsak','zorunlu_sag','girilmez','durak','yesil_isik','kirmizi_isik']
