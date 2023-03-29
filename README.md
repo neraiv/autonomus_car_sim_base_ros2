@@ -7,6 +7,7 @@ This package tested in ROS2 Galactic but u can use it with other ROS2 distros af
 
 # Clone repo
 -> Create a workspace
+```bash
   mkdir -p ros2_ws/src
   cd ros2_ws
   colcon build
@@ -14,6 +15,8 @@ This package tested in ROS2 Galactic but u can use it with other ROS2 distros af
   git clone https://github.com/neraiv/autonomus_car_sim_base_ros2.git
   cd ..
   colcon build
+```
+
   
 # Install Yolov5 requiremnts 
 Simply navigate to ../autonomus_car_sim_base_ros2/yolov5 directory and 
@@ -34,17 +37,21 @@ located in Home.
 Open Three Terminals, one for simulation - one for lane_tracking and one for yolo
 
 source the workspace on every terminal
-source install/setup.bash
+```bash
+  source install/setup.bash
+```
 
 First launch the Sim
-ros2 launch autonomus_car_sim_base_ros2 autonom_sim_base.launch.py
+```bash
+  ros2 launch autonomus_car_sim_base_ros2 autonom_sim_base.launch.py
+```
 
 Start Yolo
-ros2 run autonomus_car_sim_base_ros2 gazebo_yolo.py
+```bash
+  ros2 run autonomus_car_sim_base_ros2 gazebo_yolo.py
+```
 
 Start Lane Tracking
-ros2 run autonomus_car_sim_base_ros2 gazebo_lane_tracking.py
-
-
-
-
+```bash
+  ros2 run autonomus_car_sim_base_ros2 gazebo_lane_tracking.py
+```
