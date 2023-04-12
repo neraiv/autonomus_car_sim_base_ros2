@@ -33,10 +33,12 @@ This package tested in ROS2 Galactic but u can use it with other ROS2 distros af
 
   
 # Install Yolov5 requiremnts 
-Simply navigate to ../autonomus_car_sim_base_ros2/yolov5 directory and 
+1) Simply navigate to ../autonomus_car_sim_base_ros2/yolov5 directory and 
 
 pip install -r requirements.txt 
  -> Some libraries may not install properly. Install them manually.
+ 
+2) create weights/ directory inside the package and add ur Yolov5 model
  
 # Gazebo Models
 This package has a car model, a race field and 17 traffic signs. Gazebo Sensors can't see gazebo models autside gazebo workspace, so to be
