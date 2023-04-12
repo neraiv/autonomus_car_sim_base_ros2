@@ -38,8 +38,8 @@ This package tested in ROS2 Galactic but u can use it with other ROS2 distros af
 pip install -r requirements.txt 
  -> Some libraries may not install properly. Install them manually.
  
-2) create weights/ directory inside the package and add ur Yolov5 model
- 
+2) create weights/ directory inside the package and add ur Yolov5 model. Here is a model that contains some of the traffic signs https://drive.google.com/file/d/1adUnZ5WkgP-Z_jP-oTC_gWRkPe5M6iYk/view?usp=share_link.
+
 # Gazebo Models
 This package has a car model, a race field and 17 traffic signs. Gazebo Sensors can't see gazebo models autside gazebo workspace, so to be
 able to see objects there are 2 options add gazebo model path to Gazebo Model Path using .bashrc (or equal) or add models into .gazebo folder
