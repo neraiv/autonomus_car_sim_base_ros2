@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="signs">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+
+    <link name="iki_yonlu_yol">
+      <pose>0 0 0 0 0 0</pose>
+      <visual name="sign">
+        <geometry>
+          <mesh>
+            <scale>0.25 0.25 0.25</scale>
+            <uri>model://iki_yonlu_yol/meshes/iki_yonlu_yol.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>0.25 0.25 0.25</scale>
+            <uri>model://iki_yonlu_yol/meshes/iki_yonlu_yol.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+
+  </model>
+</sdf>
