@@ -1,0 +1,6 @@
+train: ../traffic_signs/train/images
+val: ../traffic_signs/test/images
+
+
+nc: 4
+names: ['kirmizi_isik', 'saga_donulmez', 'sola_donulmez', 'yesil_isik']
